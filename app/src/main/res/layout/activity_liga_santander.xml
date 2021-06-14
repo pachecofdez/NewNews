@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/logo3"
+    android:layout_height="match_parent"
+    tools:context=".LigaSantander">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:layout_marginTop="1dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btnAtleticoDeMadrid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="AtleticodeMadrid"
+                    android:text="ATLÉTICO DE MADRID" />
+
+                <Button
+                    android:id="@+id/btnRealMadrid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="RealMadrid"
+                    android:text="REAL MADRID" />
+
+                <Button
+                    android:id="@+id/btnBarcelona"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="Barcelona"
+                    android:text="BARCELONA" />
+
+                <Button
+                    android:id="@+id/btnSevilla"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="Sevilla"
+                    android:text="SEVILLA" />
+
+                <Button
+                    android:id="@+id/btnRealSociedad"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="RealSociedad"
+                    android:text="REAL SOCIEDAD" />
+
+                <Button
+                    android:id="@+id/btnBetis"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="Betis"
+                    android:text="BETIS" />
+
+                <Button
+                    android:id="@+id/btnVillarreal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="Villarreal"
+                    android:text="VILLARREAL" />
+
+                <Button
+                    android:id="@+id/btnCeltaVigo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="Celta"
+                    android:text="CELTA DE VIGO" />
+
+                <Button
+                    android:id="@+id/btnAthletic"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="Athletic"
+                    android:text="ATHLETIC CLUB DE BILBAO" />
+
+                <Button
+                    android:id="@+id/btnGranada"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="Granada"
+                    android:text="GRANADA" />
+
+                <Button
+                    android:id="@+id/btnOsasuna"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="Osasuna"
+                    android:text="OSASUNA" />
+
+                <Button
+                    android:id="@+id/btnCadiz"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="Cadiz"
+                    android:text="CÁDIZ" />
+
+                <Button
+                    android:id="@+id/btnValencia"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="Valencia"
+                    android:text="VALENCIA" />
+
+                <Button
+                    android:id="@+id/btnLevante"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="Levante"
+                    android:text="LEVANTE" />
+
+                <Button
+                    android:id="@+id/btnAlaves"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="Alaves"
+                    android:text="ALAVÉS" />
+
+                <Button
+                    android:id="@+id/btnGetafe"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="Getafe"
+                    android:text="GETAFE" />
+
+                <Button
+                    android:id="@+id/btnHuesca"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="Huesca"
+                    android:text="HUESCA" />
+
+                <Button
+                    android:id="@+id/btnElche"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="Elche"
+                    android:text="ELCHE" />
+
+                <Button
+                    android:id="@+id/btnValladolid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="Valladolid"
+                    android:text="VALLADOLID" />
+
+                <Button
+                    android:id="@+id/btnEibar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="Eibar"
+                    android:text="EIBAR" />
+
+            </LinearLayout>
+        </ScrollView>
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

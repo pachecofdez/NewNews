@@ -43,7 +43,7 @@ public class InicioSesionActivity extends AppCompatActivity {
         String textoEnetContraseniaUsuario = etContraseniaUsuario.getText().toString();
 
         if (usuarioAlmacenado.equals(textoEnetNombreUsuario) && contraseniaAlmacenada.equals(textoEnetContraseniaUsuario)){
-            Intent it = new Intent(this, ElegirEquipoActivity.class);
+            Intent it = new Intent(this, ElegirLigaActivity.class);
             startActivity(it);
         } else {
             Toast.makeText(this, "El inicio de sesion no es correcto", Toast.LENGTH_SHORT).show();

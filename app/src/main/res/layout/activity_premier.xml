@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/logo3"
+    android:layout_height="match_parent"
+    tools:context=".Premier">
+
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:layout_marginTop="1dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btnManchesterCity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="ManchesterCity"
+                    android:text="MANCHESTER CITY" />
+
+                <Button
+                    android:id="@+id/btnManchesterUnited"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="ManchesterUnited"
+                    android:text="MANCHESTER UNITED" />
+
+                <Button
+                    android:id="@+id/btnLiverpool"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="Liverpool"
+                    android:text="LIVERPOOL" />
+
+                <Button
+                    android:id="@+id/btnChelsea"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="Chelsea"
+                    android:text="CHELSEA" />
+
+                <Button
+                    android:id="@+id/btnLeicester"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="Leicester"
+                    android:text="LEICESTER" />
+
+                <Button
+                    android:id="@+id/btnWestHam"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="WestHam"
+                    android:text="WEST HAM" />
+
+                <Button
+                    android:id="@+id/btnTottenham"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="Tottenham"
+                    android:text="TOTTENHAM" />
+
+                <Button
+                    android:id="@+id/btnArsenal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="Arsenal"
+                    android:text="ARSENAL" />
+
+                <Button
+                    android:id="@+id/btnLeeds"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="Leeds"
+                    android:text="LEEDS UNITED" />
+
+                <Button
+                    android:id="@+id/btnEverton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="Everton"
+                    android:text="EVERTON" />
+
+                <Button
+                    android:id="@+id/btnAstonVilla"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="AstonVilla"
+                    android:text="ASTON VILLA" />
+
+                <Button
+                    android:id="@+id/btnNewcastle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="Newcastle"
+                    android:text="NEWCASTLE" />
+
+                <Button
+                    android:id="@+id/btnWolves"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="Wolves"
+                    android:text="WOLVES" />
+
+                <Button
+                    android:id="@+id/btnCrystalPalace"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="CrystalPalace"
+                    android:text="CRYSTAL PALACE" />
+
+                <Button
+                    android:id="@+id/btnSouthampton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="Southampton"
+                    android:text="SOUTHAMPTON" />
+
+                <Button
+                    android:id="@+id/btnBrighton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="Brighton"
+                    android:text="BRIGHTON" />
+
+                <Button
+                    android:id="@+id/btnBurnley"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="Burnley"
+                    android:text="BURNLEY" />
+
+                <Button
+                    android:id="@+id/btnFulham"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="Fulham"
+                    android:text="FULHAM" />
+
+                <Button
+                    android:id="@+id/btnAlbion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="Albion"
+                    android:text="ALBION" />
+
+                <Button
+                    android:id="@+id/btnSheffield"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="Sheffield"
+                    android:text="SHEFFIELD" />
+
+            </LinearLayout>
+        </ScrollView>
+
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

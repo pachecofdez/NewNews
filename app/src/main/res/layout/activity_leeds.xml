@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/logo3"
+    android:layout_height="match_parent"
+    tools:context=".Leeds">
+
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <Button
+                android:id="@+id/btnMeslier"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ILLAN MESLIER" />
+
+
+            <Button
+                android:id="@+id/btnKikoCasilla"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="KIKO CASILLA" />
+
+
+            <Button
+                android:id="@+id/btnCaprile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ELIA CAPRILE" />
+
+
+            <Button
+                android:id="@+id/btnDiegoLlorente"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DIEGO LLORENTE" />
+
+
+            <Button
+                android:id="@+id/btnKoch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ROBIN KOCH" />
+
+
+            <Button
+                android:id="@+id/btnCooper"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="LIAM COOPER" />
+
+
+            <Button
+                android:id="@+id/btnStruijk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PASCAL STRUIJK" />
+
+
+            <Button
+                android:id="@+id/btnAlioski"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="EZGJAN ALIOSKI" />
+
+
+            <Button
+                android:id="@+id/btnDouglas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="BARRY DOUGLAS" />
+
+
+            <Button
+                android:id="@+id/btnLeifDavis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="LEIF DAVIS" />
+
+
+            <Button
+                android:id="@+id/btnAyling"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="LUKE AYLING" />
+
+
+            <Button
+                android:id="@+id/btnDallas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="STAURT DALLAS" />
+
+
+            <Button
+                android:id="@+id/btnBerardi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="GAETANO BERARDI" />
+
+
+            <Button
+                android:id="@+id/btnKalvinPhillips"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="KALVIN PHILLIPS" />
+
+
+            <Button
+                android:id="@+id/btnBouy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="OUASIM BOUY" />
+
+
+            <Button
+                android:id="@+id/btnKlich"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MATEUSZ KLICH" />
+
+
+            <Button
+                android:id="@+id/btnForshaw"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ADAM FORSHAW" />
+
+
+            <Button
+                android:id="@+id/btnShackleton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="JAMIE SHACKLETON" />
+
+            <Button
+                android:id="@+id/btnGotts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ROBBIE GOTTS" />
+
+            <Button
+                android:id="@+id/btnOKane"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="EUNAN O KANE" />
+
+            <Button
+                android:id="@+id/btnStevens"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="JORDAN STEVENS" />
+
+            <Button
+                android:id="@+id/btnPabloHernandez"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PABLO HERNÁNDEZ" />
+
+            <Button
+                android:id="@+id/btnRaphinha"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="RAPHINHA" />
+
+            <Button
+                android:id="@+id/btnHelderCosta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="HÉLDER COSTA" />
+
+            <Button
+                android:id="@+id/btnPoveda"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="IAN POVEDA" />
+
+            <Button
+                android:id="@+id/btnRodrigo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="RODRIGO" />
+
+            <Button
+                android:id="@+id/btnTylerRoberts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TYLER ROBERTS" />
+
+            <Button
+                android:id="@+id/btnBamford"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PATRICK BAMFORD" />
+
+            <Button
+                android:id="@+id/btnJoeGelhardt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="JOE GELHARDT" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

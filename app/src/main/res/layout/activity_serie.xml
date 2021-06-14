@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/logo3"
+    android:layout_height="match_parent"
+    tools:context=".SerieA">
+
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:layout_marginTop="1dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnJuventus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="Juventus"
+            android:text="JUVENTUS" />
+
+    <Button
+        android:id="@+id/btnInterdeMilan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="InterMilan"
+        android:text="INTER DE MILÁN" />
+
+
+        <Button
+            android:id="@+id/btnMilan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="Milan"
+            android:text="MILÁN" />
+
+        <Button
+            android:id="@+id/btnBayern"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="Bayern"
+            android:text="BAYERN DE MUNICH" />
+
+
+        <Button
+            android:id="@+id/btnLeipzig"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="Leipzig"
+            android:text="RB LEIPZIG" />
+
+
+        <Button
+            android:id="@+id/btnDortmund"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="Dortmund"
+            android:text="BORUSSIA DORTMUND" />
+
+
+        <Button
+            android:id="@+id/btnPsg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="Psg"
+            android:text="PSG" />
+
+
+    </LinearLayout>
+    </ScrollView>
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/dale2" />
+    </LinearLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

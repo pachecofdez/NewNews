@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/logo3"
+    android:layout_height="match_parent"
+    tools:context=".Milan">
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnDonnarumma"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DONNARUMMA" />
+
+            <Button
+                android:id="@+id/btnTatarusanu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CIPRIAN TATARUSANU" />
+
+
+            <Button
+                android:id="@+id/btnAntonioDonnarumma"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ANTONIO DONNARUMMA" />
+
+
+            <Button
+                android:id="@+id/btnTomori"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="FIKAYO TOMORI" />
+
+
+            <Button
+                android:id="@+id/btnRomagnoli"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ALESSIO ROMAGNOLI" />
+
+
+            <Button
+                android:id="@+id/btnKjaer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SIMON KJAER" />
+
+
+            <Button
+                android:id="@+id/btnGabbia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MATTEO GABBIA" />
+
+
+            <Button
+                android:id="@+id/btnTheoHernandez"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="THEO HERNÁNDEZ" />
+
+
+            <Button
+                android:id="@+id/btnCalabria"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DAVIDE CALABRIA" />
+
+
+            <Button
+                android:id="@+id/btnDalot"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DIOGO DALOT" />
+
+
+            <Button
+                android:id="@+id/btnKalulu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PIERRE KALULU" />
+
+
+            <Button
+                android:id="@+id/btnBennacer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ISMAEL BENNACER" />
+
+
+            <Button
+                android:id="@+id/btnTonali"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SANDRO TONALI" />
+
+            <Button
+                android:id="@+id/btnKessie"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="FRANCK KESSIE" />
+
+
+            <Button
+                android:id="@+id/btnKrunic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="RADE KRUNIC" />
+
+            <Button
+                android:id="@+id/btnMeite"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SOUALIHO MEITÉ" />
+
+
+            <Button
+                android:id="@+id/btnCalhanoglu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="HAKAN CALHANOGLU" />
+
+
+            <Button
+                android:id="@+id/btnBrahimDiaz"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="BRAHIM DÍAZ" />
+
+
+            <Button
+                android:id="@+id/btnMaldini"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DANIEL MALDINI" />
+
+
+            <Button
+                android:id="@+id/btnRebic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ANTE REBIC" />
+
+
+            <Button
+                android:id="@+id/btnHauge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="JENS PETTER HAUGE" />
+
+
+            <Button
+                android:id="@+id/btnSaelemaekers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ALEXIS SAELEMAEKERS" />
+
+
+            <Button
+                android:id="@+id/btnCastillejo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SAMU CASTILLEJO" />
+
+
+            <Button
+                android:id="@+id/btnRafaelLeoa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="RAFAEL LEAO" />
+
+
+
+            <Button
+                android:id="@+id/btnIbrahimovic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ZLATAN IBRAHIMOVIC" />
+
+
+            <Button
+                android:id="@+id/btnMandzukic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MARIO MANDZUKIC" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

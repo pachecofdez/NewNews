@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/logo3"
+    tools:context=".Cadiz">
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <Button
+                android:id="@+id/btnJeremiasLedesma"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="JEREMÍAS LEDESMA" />
+
+            <Button
+                android:id="@+id/btnDavidGil"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DAVID GIL" />
+
+
+            <Button
+                android:id="@+id/btnFali"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="FALI" />
+
+
+            <Button
+                android:id="@+id/btnJuanCala"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="JUAN CALA" />
+
+
+            <Button
+                android:id="@+id/btnMarcosMauro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MARCOS MAURO" />
+
+
+            <Button
+                android:id="@+id/btnPedroAlcala"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PEDRO ALCALÁ" />
+
+
+            <Button
+                android:id="@+id/btnAlfonsoEspino"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ALFONSO ESPINO" />
+
+
+            <Button
+                android:id="@+id/btnIzaCarcelen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="IZA CARCELÉN" />
+
+
+            <Button
+                android:id="@+id/btnCarlosAkapo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CARLOS AKAPO" />
+
+
+            <Button
+                android:id="@+id/btnJensJonsson"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="JENS JONSSON" />
+
+
+            <Button
+                android:id="@+id/btnJonAnderGarrido"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="JON ANDER GARRIDO" />
+
+
+            <Button
+                android:id="@+id/btnJoseMari"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="JOSÉ MARI" />
+
+
+            <Button
+                android:id="@+id/btnAugustoFernandez"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="AUGUSTO FERNÁNDEZ" />
+
+
+            <Button
+                android:id="@+id/btnJorgePombo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="JORGE POMBO" />
+
+
+            <Button
+                android:id="@+id/btnAlbertoPerea"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ALBERTO PEREA" />
+
+
+            <Button
+                android:id="@+id/btnJairoIzquierdo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="JAIRO IZQUIERDO" />
+
+
+            <Button
+                android:id="@+id/btnSalviSanchez"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SALVI SÁNCHEZ" />
+
+
+            <Button
+                android:id="@+id/btnIvanAlejo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="IVÁN ALEJO" />
+
+
+            <Button
+                android:id="@+id/btnFilipMalbasic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="FILIP MALBASIC" />
+
+            <Button
+                android:id="@+id/btnChocoLozano"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CHOCO LOZANO" />
+
+            <Button
+                android:id="@+id/btnRubenSobrino"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="RUBÉN SOBRINO" />
+
+            <Button
+                android:id="@+id/btnIvanSaponjic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="IVÁN SAPONJIC" />
+
+            <Button
+                android:id="@+id/btnAlvaroNegredo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ÁLVARO NEGREDO" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
